@@ -1,0 +1,41 @@
+# mixture of three different things
+
+#The introduction
+
+print("This is to help  you manage the funds you have.")
+print("So I'm in your care.")
+
+print("\nBut first you have to sign in.")
+print("So please tell me who you are.")
+
+input("\n\nPress the enter key to continue.")
+
+# where you type your username and password to get into the computer
+security = 0
+
+username = ""
+while not username:
+    username = input("\nUsername: ")
+
+password = ""
+while not password:
+    password = input("\nPassword: ")
+
+if username == "Andrew" and password == "MomAsh234!":
+    print("Hello. Andrew.")
+    security = 9
+elif username == "Deolinda" and password == "Mom":
+    print("What's up, Deolinda")
+    security = 7
+
+else:
+    print("\nYou're not one of the user's.")
+
+input("\n\nPress the enter key to continue.")
+
+# Tells you how much you're spending
+
+Debitcard = int(input("Visa PNC Card: "))
+Games = int(input("Runescape, Monster Camp: "))
+
+input("\n\nPress the enter key to exit.")
